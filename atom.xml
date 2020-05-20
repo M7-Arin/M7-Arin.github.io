@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="m7arin.xyz/"/>
-  <updated>2020-05-20T12:51:31.036Z</updated>
+  <updated>2020-05-20T14:54:54.339Z</updated>
   <id>m7arin.xyz/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>自定义公益404页面</title>
+    <link href="m7arin.xyz/custom404.html"/>
+    <id>m7arin.xyz/custom404.html</id>
+    <published>2020-05-20T14:29:58.000Z</published>
+    <updated>2020-05-20T14:54:54.339Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="新建404页面"><a class="header-anchor" href="#新建404页面">¶</a>新建404页面</h2><p>在 Hexo 所在文件夹启动 Git Bsh 新建404页面文件</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ hexo new page &quot;404&quot;</span><br></pre></td></tr></table></figure><p>打开新建的页面文件，默认在 Hexo 文件夹根目录下 /source/404/index.md<br>修改内容为</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 404 Not Found：该页无法显示</span><br><span class="line">toc: false</span><br><span class="line">comments: false</span><br><span class="line">permalink: &#x2F;404 # 表示指定该页固定链接为 http:&#x2F;&#x2F;&quot;主页&quot;&#x2F;404.html</span><br><span class="line">---</span><br><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">    &lt;head&gt;</span><br><span class="line">         &lt;meta charset&#x3D;&quot;UTF-8&quot; &#x2F;&gt;</span><br><span class="line">         &lt;title&gt;404&lt;&#x2F;title&gt;                                                                                                                                        </span><br><span class="line">    &lt;&#x2F;head&gt;</span><br><span class="line">    &lt;body&gt;</span><br><span class="line">         &lt;script type&#x3D;&quot;text&#x2F;javascript&quot; src&#x3D;&quot;&#x2F;&#x2F;qzonestyle.gtimg.cn&#x2F;qzone&#x2F;hybrid&#x2F;app&#x2F;404&#x2F;search_children.js&quot; homePageName&#x3D;&quot;返回首页&quot; homePageUrl&#x3D;&quot;https:&#x2F;&#x2F;m7arin.xyz&quot;&gt;&lt;&#x2F;script&gt;</span><br><span class="line">true&lt;&#x2F;body&gt;</span><br><span class="line">&lt;&#x2F;html&gt;</span><br></pre></td></tr></table></figure><p>重新编译、推送即可</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ hexo g</span><br><span class="line">$ hexo d</span><br></pre></td></tr></table></figure><p>404页面本地环境下无法查看效果，需推送至服务器才能够正常测试查看</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="m7arin.xyz/categories/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="m7arin.xyz/tags/Hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo个人博客搭建过程记录</title>
