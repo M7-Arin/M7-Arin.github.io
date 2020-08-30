@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="m7arin.xyz/"/>
-  <updated>2020-06-16T16:15:19.681Z</updated>
+  <updated>2020-08-30T12:45:32.696Z</updated>
   <id>m7arin.xyz/</id>
   
   <author>
@@ -15,6 +15,21 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>butterflyBeautify</title>
+    <link href="m7arin.xyz/posts/1001/"/>
+    <id>m7arin.xyz/posts/1001/</id>
+    <published>2020-08-30T12:45:32.000Z</published>
+    <updated>2020-08-30T12:45:32.696Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>GitHub图床搭建</title>
@@ -41,8 +56,8 @@
   
   <entry>
     <title>自定义公益404页面</title>
-    <link href="m7arin.xyz/posts/1001/"/>
-    <id>m7arin.xyz/posts/1001/</id>
+    <link href="m7arin.xyz/posts/1002/"/>
+    <id>m7arin.xyz/posts/1002/</id>
     <published>2020-05-20T14:29:58.000Z</published>
     <updated>2020-05-20T15:10:23.091Z</updated>
     
