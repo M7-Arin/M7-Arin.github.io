@@ -286,7 +286,6 @@ self.addEventListener('activate', function (event) {
 
 // Runtime cache 配置转换后的 toolbox 代码.
 
-toolbox.router.get("/*", toolbox.cacheFirst, {"origin":"unpkg.com"});
 toolbox.router.get("/npm/*", toolbox.cacheFirst, {"origin":"cdn.jsdelivr.net"});
 
 
