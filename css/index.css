@@ -4633,6 +4633,15 @@ mjx-container[jax='CHTML'][display='true'] {
 #article-container .aplayer ul li:before {
   content: none;
 }
+@media screen and (max-width: 1024px) {
+  #web_bg {
+    background: url("http://api.btstu.cn/sjbz/api.php?method=mobile&lx=dongman&format=images");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
 #article-container .btn-center {
   margin: 0 0 1rem;
   text-align: center;
