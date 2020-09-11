@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>自定义公益404页面</title>
+      <link href="/posts/1005/"/>
+      <url>/posts/1005/</url>
+      
+        <content type="html"><![CDATA[<h2 id="新建404页面"><a class="header-anchor" href="#新建404页面">¶</a>新建404页面</h2><p>在 Hexo 所在文件夹启动 Git Bsh 新建404页面文件</p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new page <span class="string">&quot;404&quot;</span></span><br></pre></td></tr></table></figure><p>打开新建的页面文件，默认在 Hexo 文件夹根目录下 /source/404/index.md<br>修改内容为</p><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 404 Not Found：该页无法显示</span><br><span class="line">toc: false</span><br><span class="line">comments: false</span><br><span class="line">permalink: /404 # 表示指定该页固定链接为 http://&quot;主页&quot;/404.html</span><br><span class="line">---</span><br><span class="line"><span class="xml"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span></span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span></span><br><span class="line"><span class="code">    &lt;head&gt;</span></span><br><span class="line"><span class="code">         &lt;meta charset=&quot;UTF-8&quot; /&gt;</span></span><br><span class="line"><span class="code">         &lt;title&gt;404&lt;/title&gt;                                                                                                                                        </span></span><br><span class="line"><span class="code">    &lt;/head&gt;</span></span><br><span class="line"><span class="code">    &lt;body&gt;</span></span><br><span class="line"><span class="code">         &lt;script type=&quot;text/javascript&quot; src=&quot;//qzonestyle.gtimg.cn/qzone/hybrid/app/404/search_children.js&quot; homePageName=&quot;返回首页&quot; homePageUrl=&quot;https://m7arin.xyz&quot;&gt;&lt;/script&gt;</span></span><br><span class="line"><span class="code">true&lt;/body&gt;</span></span><br><span class="line"><span class="code">&lt;/html&gt;</span></span><br></pre></td></tr></table></figure><p>重新编译、推送即可</p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo g</span><br><span class="line">$ hexo d</span><br></pre></td></tr></table></figure><p>404页面本地环境下无法查看效果，需推送至服务器才能够正常测试查看</p><hr>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>butterfly主题自定义美化</title>
       <link href="/posts/1001/"/>
       <url>/posts/1001/</url>
@@ -34,31 +59,6 @@
       <url>/posts/1002/</url>
       
         <content type="html"><![CDATA[<h1>前言</h1><p>目前gitee、coding、github等托管平台在一定程度上均可作为图床搭建平台。gitee图床图片大小超过1M后需登录账号才能获取外链，coding图床暂未测试，这里推荐使用github作为图床</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Hexo </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Hexo </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>自定义公益404页面</title>
-      <link href="/posts/1002/"/>
-      <url>/posts/1002/</url>
-      
-        <content type="html"><![CDATA[<h2 id="新建404页面"><a class="header-anchor" href="#新建404页面">¶</a>新建404页面</h2><p>在 Hexo 所在文件夹启动 Git Bsh 新建404页面文件</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ hexo new page &quot;404&quot;</span><br></pre></td></tr></table></figure><p>打开新建的页面文件，默认在 Hexo 文件夹根目录下 /source/404/index.md<br>修改内容为</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 404 Not Found：该页无法显示</span><br><span class="line">toc: false</span><br><span class="line">comments: false</span><br><span class="line">permalink: &#x2F;404 # 表示指定该页固定链接为 http:&#x2F;&#x2F;&quot;主页&quot;&#x2F;404.html</span><br><span class="line">---</span><br><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">    &lt;head&gt;</span><br><span class="line">         &lt;meta charset&#x3D;&quot;UTF-8&quot; &#x2F;&gt;</span><br><span class="line">         &lt;title&gt;404&lt;&#x2F;title&gt;                                                                                                                                        </span><br><span class="line">    &lt;&#x2F;head&gt;</span><br><span class="line">    &lt;body&gt;</span><br><span class="line">         &lt;script type&#x3D;&quot;text&#x2F;javascript&quot; src&#x3D;&quot;&#x2F;&#x2F;qzonestyle.gtimg.cn&#x2F;qzone&#x2F;hybrid&#x2F;app&#x2F;404&#x2F;search_children.js&quot; homePageName&#x3D;&quot;返回首页&quot; homePageUrl&#x3D;&quot;https:&#x2F;&#x2F;m7arin.xyz&quot;&gt;&lt;&#x2F;script&gt;</span><br><span class="line">true&lt;&#x2F;body&gt;</span><br><span class="line">&lt;&#x2F;html&gt;</span><br></pre></td></tr></table></figure><p>重新编译、推送即可</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ hexo g</span><br><span class="line">$ hexo d</span><br></pre></td></tr></table></figure><p>404页面本地环境下无法查看效果，需推送至服务器才能够正常测试查看</p><hr>]]></content>
       
       
       <categories>
